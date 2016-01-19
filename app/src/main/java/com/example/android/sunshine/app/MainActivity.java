@@ -10,7 +10,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
+
+
+//This is a test
 
 public class MainActivity extends AppCompatActivity {
     private final String LOG_TAG = MainActivity.class.getSimpleName();
@@ -45,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if (id==R.id.action_map){
             openPreferredLocationInMap();
             return true;
+            // github test
         }
 
         return super.onOptionsItemSelected(item);
