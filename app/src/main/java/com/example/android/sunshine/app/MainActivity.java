@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 
 //This is a test
-//This is a tes2tal
+//This is a not a testical we have fixed the bug
 
 public class MainActivity extends AppCompatActivity {
     private final String LOG_TAG = MainActivity.class.getSimpleName();
